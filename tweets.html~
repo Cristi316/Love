@@ -2,13 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Always Remember</title>
-     <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
-     <link href="styles.css" rel="stylesheet">
   </head>
-  
-<body class="works_on_smartphone">
+  <body>
     <header>
       <ul>
 	<li><a href="index.html">Our Love Story</a></li>
@@ -22,6 +18,8 @@
 	
     <h1>Always Remember</h1>
 
+    <!-- Enlace para volver a la página principal -->
+    <a href="index.html">Back to Our Love Story</a>
 
     <!-- Tweet incrustado -->
     <blockquote class="twitter-tweet">

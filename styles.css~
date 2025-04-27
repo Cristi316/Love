@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Satisfy', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 20px 0;
+    color: #800f0f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 45px;
+    color: #792D33;
+}
+
+h3 {
+    font-size: 28px;
+    color: #B42D34;
+}
+
+
+    p {
+	font-size: 18px;
+    }
+    * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    }
+
+    header {
+	background-color: #3B0D0A;
+	height: 80px;
+    }
+
+    header a {
+	color: #D7C6C1;
+    }
+
+    header ul {
+	display: flex;
+	justify-content: flex-start;
+	gap: 30px;
+	padding: 8px 20px;
+    }
+    
+    html, body {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+    }
+    body {
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	box-sizing: border-box;
+    }
+
+    main {
+	display: flex;
+	flex-direction: row;
+	flex: 1;        
+	width: 100%;     
+	margin: 0;      
+    }
+
+    article {
+	flex: 2;
+	overflow-y: auto;
+	padding: 25px;
+	background-color: #D7C6C1;
+	border-radius: 0;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .gallery-page {
+	background-image: url('https://i.pinimg.com/736x/e1/74/07/e17407ad3be6961037b1d8792a4c5bbb.jpg');
+	background-size: cover;
+	background-position: center;
+    }
+    
+    aside {
+	background-image: url('https://i.pinimg.com/736x/d1/0d/b1/d10db1a7f768fe79944d5a79d5cb1c4e.jpg');
+	background-repeat: repeat;
+	background-size: 500px;
+	background-position: center;
+	padding: 20px;
+	border-radius: 0;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	flex: 1;
+	overflow-y: auto;
+	color: white;
+    }
+	
+    }
+
+    .sidebar {
+	flex: 1;
+	overflow-y: auto;
+	background-color: #a60808;
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid #000;
+    }
+    img {
+	max-width: 70%;
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+    }
+    .vinyl-caption {
+	text-align: center;
+	margin-top: 20px;
+    }
+    figcaption {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+    }
+
+
+    ol li {
+	margin-bottom: 5px;
+	padding-left: 30px;
+    }
+    ol {
+	margin-left: 40px;
+	list-style-position: outside;
+
+    }
+
+    @media screen and (max-width: 768px) {
+	header {
+	    min-height: 270px;
+	    padding: 20px 0;
+	}
+
+	header ul {
+	    flex-direction: column;
+	    padding-left: 20px;
+	    gap: 15px;
+	}
+
+	header li {
+	    width: 100%;
+	    text-align: left;
+	    margin: 5px 0;
+	}
+
+	header a {
+	    display: block;
+	    padding: 10px 0;
+	}
+    }
+    

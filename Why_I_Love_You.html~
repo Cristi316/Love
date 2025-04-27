@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Why I Love You</title>
-    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-
   </head>
-<body class="works_on_smartphone">
+  <body>
     <header>
       <ul>
 	<li><a href="index.html">Our Love Story</a></li>
@@ -22,7 +17,7 @@
     <main>
       <article>
 	<h1>Why I Love You</h1>
-<p>You have so many qualities, so many that I can not list them, but here are a few. </p>
+
 	<div class="reasons">
 	  <h2>50 Reasons Why I Love You</h2>
 	  <ol>
@@ -88,6 +83,5 @@
     <footer>
       <p>Made by Ana Cristina Antuña Martin for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a></p>
     </footer>
-
   </body>
   </html>
