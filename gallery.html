@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+   <script src="behavior.js"></script>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Gallery</title>
@@ -11,6 +12,7 @@
 <body class="works_on_smartphone">
     <header>
       <ul>
+         <li class="logo">♡</li>
 	<li><a href="index.html">Our Love Story</a></li>
 	<li><a href="tweets.html">Always Remember</a></li>
 	<li><a href="Why_I_Love_You.html">Why I Love You</a></li>
@@ -47,7 +49,24 @@
       </article>
 
       <aside>
-	<p>placeholder to add comment thread later</p>
+	<p>Distance is nothing when love is strong</p>
+
+	<div id="disqus_thread"></div>
+	<script>
+	  var disqus_config = function () {
+	  this.page.url = window.location.href; http://15.236.51.26/Love/index.html
+	  this.page.identifier = window.location.pathname; window.location.pathname;
+	  };
+
+	  (function() {
+	  var d = document, s = d.createElement('script');
+	  s.src = 'https://Our-Love-Story.disqus.com/embed.js';
+	  s.setAttribute('data-timestamp', +new Date());
+	  (d.head || d.body).appendChild(s);
+	  })();
+	</script>
+	<noscript>Por favor habilita JavaScript para ver <a href="https://disqus.com/?ref_noscript" rel="nofollow">l\
+	    os comentarios de Disqus.</a></noscript>
       </aside>
     </main>
 

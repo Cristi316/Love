@@ -3,6 +3,7 @@
 <html lang="en">
 
   <head>
+       <script src="behavior.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Love Story</title>
@@ -14,13 +15,24 @@
   </head>
  <body class="works_on_smartphone">
     <header>
+      <div class="right">
+	<div class="fb-share-button"
+	     data-href="http://15.236.51.26/Love/index.html"
+	     data-layout="button_count">
+	</div>
+	<a href="https://twitter.com/share"
+	   class="twitter-share-button"
+	   data-show-count="false">
+	  Tweet
+	</a>
+	    </div>
       <ul>
 <li class="logo">♡</li>
 	<li><a href="index.html">Our Love Story</a></li>
 	<li><a href="tweets.html">Always Remember</a></li>
 	<li><a href="Why_I_Love_You.html">Why I Love You</a></li>
 	<li><a href="gallery.html">Our Gallery</a></li>
-      </ul>
+      </ul>      
     </header>
 
     <main>
@@ -58,18 +70,24 @@ And the almost 3 years we have been together because I could not think of a bett
 	      <h2>A Gallery of Memories</h2>
 	      <div class="photos">
 		<figure>
+		  <div class="contenedor">
+
 		  <img src="https://i.imgur.com/xSXwWTk.jpeg" alt="Moments I love with you">
-		    <figcaption>I love you</figcaption>
+</div>
+		  <figcaption>I love you</figcaption>
 		  </figure>
 
-		  <figure>
+ <div class="contenedor">
 		    <img src="https://i.imgur.com/KokZR2C.jpeg" alt="Moments I love with you">
-		      <figcaption>Exploring with you is amazing</figcaption>
+</div>
+		    <figcaption>Exploring with you is amazing</figcaption>
 		    </figure>
 
 		    <figure>
+ <div class="contenedor">
 		      <img src="https://i.imgur.com/k4BYzpX.jpeg" alt="Moments I love with you">
-			<figcaption>Moments I love with you</figcaption>
+</div>
+		      <figcaption>Moments I love with you</figcaption>
 		      </figure>
 		    </div>
 
@@ -83,18 +101,41 @@ And the almost 3 years we have been together because I could not think of a bett
 		    <p>I love you for a lot of reasons but here are the most important, click to discover them</p>
 		    <a href="Why_I_Love_You.html">
 		      <img src="https://i.imgur.com/pWkgxby.jpeg" alt="Love Link">
-			</a>
-		    </article>
+		    </a>
+                   
+</article>
 
       <aside class="sidebar">
-                      <p>Distance is nothing when love is strong</p>
-		      <p>placeholder to add comment thread later</p>
+        <p>Distance is nothing when love is strong</p>
+
+	<div id="disqus_thread"></div>
+	<script>
+	  var disqus_config = function () {
+	  this.page.url = window.location.href; http://15.236.51.26/Love/index.html
+	  this.page.identifier = window.location.pathname; window.location.pathname;
+	  };
+
+	  (function() {
+	  var d = document, s = d.createElement('script');
+	  s.src = 'https://Our-Love-Story.disqus.com/embed.js';
+	  s.setAttribute('data-timestamp', +new Date());
+	  (d.head || d.body).appendChild(s);
+	  })();
+	</script>
+	<noscript>Por favor habilita JavaScript para ver <a href="https://disqus.com/?ref_noscript" rel="nofollow">los comentarios de Disqus.</a></noscript>
+
+
       </aside>
     </main>
 		    
 		      <footer>
 			<p>Made by Ana Cristina Antuña Martin for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a></p>
 			    </footer>
-		    </body>
+<script id="dsq-count-scr" src="//http-15-236-51-26-love-index-html.disqus.com/count.js" async></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+	src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0">
+</script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
 </html>
-
